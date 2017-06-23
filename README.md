@@ -10,7 +10,7 @@ Add to your package.json:
 
 ```json
 {
-  "eslintConfig" {
+  "eslintConfig": {
     "extends": "simplymadeapps"
   }
 }
