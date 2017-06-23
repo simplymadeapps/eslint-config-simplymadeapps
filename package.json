@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-simplymadeapps",
+  "version": "1.0.0",
+  "description": "ESLint config for Simply Made Apps",
+  "homepage": "https://github.com/simplymadeapps/eslint-config-simplymadeapps",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplymadeapps/eslint-config-simplymadeapps.git"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^2.2.0",
+    "eslint-config-xo": "^0.18.2",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-unicorn": "^2.1.2",
+    "prettier": "^1.4.4"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.14.1"
+  }
+}
