@@ -27,6 +27,7 @@ module.exports = {
         null: "never"
       }
     ],
+    "guard-for-in": "off",
     "import/no-extraneous-dependencies": "off",
     "import/no-unassigned-import": "off",
     "import/no-unresolved": "off",
