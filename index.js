@@ -20,6 +20,7 @@ module.exports = {
   },
   plugins: ["import", "prettier", "react", "unicorn"],
   rules: {
+    "capitalized-comments": "off",
     eqeqeq: [
       "error",
       "always",
@@ -46,6 +47,7 @@ module.exports = {
         printWidth: 120
       }
     ],
+    radix: ["error", "as-needed"],
     "react/jsx-uses-vars": 1,
     "valid-jsdoc": [
       "error",
