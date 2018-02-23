@@ -48,7 +48,7 @@ module.exports = {
       }
     ],
     radix: ["error", "as-needed"],
-    "react/jsx-no-literals",
+    "react/jsx-no-literals": 1,
     "react/jsx-uses-vars": 1,
     "valid-jsdoc": [
       "error",
