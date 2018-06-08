@@ -15,6 +15,7 @@ module.exports = {
     "beforeEach": true,
     "describe": true,
     "expect": true,
+    "fail": true,
     "it": true,
     "jest": true
   },
