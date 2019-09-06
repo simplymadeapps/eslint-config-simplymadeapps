@@ -54,6 +54,7 @@ module.exports = {
         "varsIgnorePattern": "React"
       }
     ],
+    "no-var": "error",
     "prettier/prettier": [
       "error",
       {
