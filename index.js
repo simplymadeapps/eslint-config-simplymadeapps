@@ -6,7 +6,8 @@ module.exports = {
     "xo",
     "plugin:unicorn/recommended",
     "prettier",
-    "prettier/react"
+    "prettier/react",
+    "plugin:jsdoc/recommended"
   ],
   "globals": {
     "afterAll": true,
