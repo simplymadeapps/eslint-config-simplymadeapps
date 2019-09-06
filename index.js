@@ -46,6 +46,40 @@ module.exports = {
     "import/no-unassigned-import": "off",
     "import/no-unresolved": "off",
     "import/order": "off",
+    "jsdoc/require-description": [
+      "error",
+      {
+        "contexts": [
+          "ArrowFunctionExpression",
+          "ClassDeclaration",
+          "ClassExpression",
+          "FunctionDeclaration",
+          "FunctionExpression",
+          "MethodDefinition"
+        ]
+      }
+    ],
+    "jsdoc/require-jsdoc": [
+      "error",
+      {
+        "contexts": [
+          "ArrowFunctionExpression",
+          "ClassDeclaration",
+          "ClassExpression",
+          "FunctionDeclaration",
+          "FunctionExpression",
+          "MethodDefinition"
+        ],
+        "require": {
+          "ArrowFunctionExpression": false,
+          "ClassDeclaration": true,
+          "ClassExpression": true,
+          "FunctionDeclaration": true,
+          "FunctionExpression": true,
+          "MethodDefinition": false
+        }
+      }
+    ],
     "no-alert": "off",
     "no-eq-null": "off",
     "no-unused-vars": [
