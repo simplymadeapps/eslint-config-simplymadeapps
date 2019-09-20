@@ -128,12 +128,6 @@ module.exports = {
         "stopAfterFirstProblem": true
       }
     ],
-    "valid-jsdoc": [
-      "error",
-      {
-        "requireReturn": false,
-        "requireReturnDescription": false
-      }
-    ]
+    "unicorn/prevent-abbreviations": "off"
   }
 };
