@@ -99,6 +99,7 @@ module.exports = {
       "error",
       "as-needed"
     ],
+    "react/jsx-curly-brace-presence": [1, { "props": "never", "children": "ignore" }],
     "react/jsx-no-literals": 1,
     "react/jsx-uses-vars": 1,
     "sort-class-members/sort-class-members": [
