@@ -89,6 +89,7 @@ module.exports = {
       }
     ],
     "no-var": "error",
+    "prefer-arrow-callback": "error",
     "prettier/prettier": [
       "error",
       {
