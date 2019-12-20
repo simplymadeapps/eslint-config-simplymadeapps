@@ -41,6 +41,7 @@ module.exports = {
         "null": "never"
       }
     ],
+    "func-style": ["error", "declaration"],
     "guard-for-in": "off",
     "import/no-extraneous-dependencies": "off",
     "import/no-unassigned-import": "off",
