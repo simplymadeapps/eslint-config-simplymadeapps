@@ -34,6 +34,7 @@ module.exports = {
   ],
   "rules": {
     "capitalized-comments": "off",
+    "default-param-last": "off",
     "eqeqeq": [
       "error",
       "always",
@@ -41,6 +42,7 @@ module.exports = {
         "null": "never"
       }
     ],
+    "func-style": ["error", "declaration"],
     "guard-for-in": "off",
     "import/no-extraneous-dependencies": "off",
     "import/no-unassigned-import": "off",
@@ -89,6 +91,7 @@ module.exports = {
       }
     ],
     "no-var": "error",
+    "prefer-arrow-callback": "error",
     "prettier/prettier": [
       "error",
       {
