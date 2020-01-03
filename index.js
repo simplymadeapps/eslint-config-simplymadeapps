@@ -91,6 +91,7 @@ module.exports = {
       }
     ],
     "no-var": "error",
+    "object-shorthand": "error",
     "prefer-arrow-callback": "error",
     "prettier/prettier": [
       "error",
