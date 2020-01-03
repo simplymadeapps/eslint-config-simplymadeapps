@@ -134,6 +134,7 @@ module.exports = {
         "stopAfterFirstProblem": true
       }
     ],
+    "sort-keys": ["error", "asc", { "caseSensitive": false }],
     "unicorn/prevent-abbreviations": "off"
   }
 };
