@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simplymadeapps",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "description": "ESLint config for Simply Made Apps",
   "homepage": "https://github.com/simplymadeapps/eslint-config-simplymadeapps",
   "license": "MIT",
