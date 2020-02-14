@@ -134,6 +134,18 @@ module.exports = {
         "stopAfterFirstProblem": true
       }
     ],
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "memberSyntaxSortOrder": [
+          "all",
+          "single",
+          "multiple",
+          "none"
+        ]
+      }
+    ],
     "sort-keys": ["error", "asc", { "caseSensitive": false }],
     "unicorn/prevent-abbreviations": "off"
   }
