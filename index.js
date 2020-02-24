@@ -103,6 +103,7 @@ module.exports = {
       "error",
       "as-needed"
     ],
+    "react/button-has-type": 1,
     "react/jsx-curly-brace-presence": [1, { "props": "never", "children": "ignore" }],
     "react/jsx-no-literals": 1,
     "react/jsx-sort-props": [1, { "ignoreCase": true }],
