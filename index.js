@@ -34,6 +34,7 @@ module.exports = {
   ],
   "rules": {
     "capitalized-comments": "off",
+    "curly": "error",
     "default-param-last": "off",
     "eqeqeq": [
       "error",
