@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simplymadeapps",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "ESLint config for Simply Made Apps",
   "homepage": "https://github.com/simplymadeapps/eslint-config-simplymadeapps",
   "license": "MIT",
@@ -22,7 +22,8 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-sort-class-members": "^1.6.0",
-    "eslint-plugin-unicorn": "^14.0.1"
+    "eslint-plugin-unicorn": "^14.0.1",
+    "typescript": "^3.9.5"
   },
   "peerDependencies": {
     "eslint": ">=6.7.2",
