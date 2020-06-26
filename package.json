@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simplymadeapps",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "ESLint config for Simply Made Apps",
   "homepage": "https://github.com/simplymadeapps/eslint-config-simplymadeapps",
   "license": "MIT",
@@ -16,6 +16,8 @@
     "eslint-config-prettier": "^6.7.0",
     "eslint-config-xo": "^0.27.2",
     "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.17.1",
+    "eslint-plugin-jest-formatting": "^2.0.0",
     "eslint-plugin-jsdoc": "^18.4.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.17.0",

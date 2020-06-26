@@ -7,7 +7,9 @@ module.exports = {
     "plugin:unicorn/recommended",
     "prettier",
     "prettier/react",
-    "plugin:jsdoc/recommended"
+    "plugin:jsdoc/recommended",
+    "plugin:jest/recommended",
+    "plugin:jest-formatting/strict"
   ],
   "globals": {
     "afterAll": true,
@@ -27,6 +29,8 @@ module.exports = {
   },
   "plugins": [
     "import",
+    "jest",
+    "jest-formatting",
     "prettier",
     "react",
     "sort-class-members",
@@ -50,6 +54,8 @@ module.exports = {
     "import/no-unassigned-import": "off",
     "import/no-unresolved": "off",
     "import/order": "off",
+    "jest/no-disabled-tests": "off",
+    "jest/no-mocks-import": "off",
     "jsdoc/require-description": [
       "error",
       {
