@@ -22,6 +22,7 @@ module.exports = {
     "it": true,
     "jest": true
   },
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
