@@ -9,6 +9,7 @@ module.exports = {
     "prettier/react",
     "plugin:jsdoc/recommended",
     "plugin:jest/recommended",
+    "plugin:jest/style",
     "plugin:jest-formatting/strict"
   ],
   "globals": {
