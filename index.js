@@ -118,6 +118,7 @@ module.exports = {
     "react/jsx-no-literals": 1,
     "react/jsx-sort-props": [1, { "ignoreCase": true }],
     "react/jsx-uses-vars": 1,
+    "require-await": "error",
     "sort-class-members/sort-class-members": [
       2,
       {
