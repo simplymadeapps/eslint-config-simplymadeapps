@@ -92,6 +92,7 @@ module.exports = {
         }
       }
     ],
+    "newline-before-return": "error",
     "no-alert": "off",
     "no-eq-null": "off",
     "no-unused-vars": [
