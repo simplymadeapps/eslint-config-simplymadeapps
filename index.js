@@ -104,6 +104,19 @@ module.exports = {
     "no-var": "error",
     "object-shorthand": "error",
     "prefer-arrow-callback": "error",
+    "prefer-destructuring": [
+      "error",
+      {
+        "VariableDeclarator": {
+          "array": false,
+          "object": true
+        },
+        "AssignmentExpression": {
+          "array": false,
+          "object": false
+        }
+      }
+    ],
     "prettier/prettier": [
       "error",
       {
