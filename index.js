@@ -144,6 +144,12 @@ module.exports = {
               "type": "method"
             }
           ],
+          "properties": [
+            {
+              "sort": "alphabetical",
+              "type": "property"
+            }
+          ],
           "render-methods": [
             {
               "name": "/render.+/",
@@ -153,6 +159,7 @@ module.exports = {
           ]
         },
         "order": [
+          "[properties]",
           "constructor",
           "[other-methods]",
           "[render-methods]"
