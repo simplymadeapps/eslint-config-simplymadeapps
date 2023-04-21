@@ -94,6 +94,7 @@ module.exports = {
     ],
     "newline-before-return": "error",
     "no-alert": "off",
+    "no-duplicate-imports": "error",
     "no-eq-null": "off",
     "no-unused-vars": [
       "error",
